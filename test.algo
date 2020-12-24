@@ -1,0 +1,31 @@
+ALGORITHM Test_algo
+VAR
+    W:=1 integer;
+    phrase: string;
+    i :integer;
+    L:=0 integer ;
+    C : char ;
+    V:=0 integer;
+BEGIN
+  Write ("Enter a phrase : ") 
+  FOR  i=1 TO phrase.length DO {
+    read ( C ) 
+
+    WHILE (C <> ".") 
+        {L := L+1};
+    END_WHILE
+    write ("This sentence matters ", L , " words")
+
+    IF(c===" ")
+     then {W := W+1};
+    END_IF
+     write ("This sentence matters ", W , " words")
+
+    IF(c= "a" or c= "e" or c= "i" or c= "o" or c= "u" or c= "y")
+    Then {V:= V+1};
+    END_IF
+    write ("This sentence matters ", V , " vowels")
+    }
+    End_For
+
+END
